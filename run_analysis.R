@@ -63,3 +63,4 @@ colnames(data) <- c(features[row] , "Subject_Id","Activity_Id")
 tidy <- aggregate(data[,1:66], by=list(activity = data[,67], subject = data[,68]), mean,na.rm=TRUE)
 
 write.table(tidy,file="tidy.txt")
+tidy
