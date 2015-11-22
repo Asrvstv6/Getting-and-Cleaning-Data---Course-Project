@@ -1,0 +1,15 @@
+TRD_subject_train - consists of the training set's subject Id
+TRD_X_train - consists the training set data
+TRD_y-train - consists the training labels
+TRD_activity_train - consists of the training set activity names
+
+TTD_subject_test - consists of the training set's subject Id
+TTD_X_test - consists the training set data
+TTD_y-test - consists the training labels
+TTD_activity_test - consists of the training set activity names
+
+features - include the final features that we want
+data - to help in getting aggregate for every subject for every activity
+
+data_final - consist of the final data
+tidy - consists of the final tidy data
